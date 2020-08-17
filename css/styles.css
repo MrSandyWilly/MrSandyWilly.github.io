@@ -19,11 +19,13 @@ body, html {
 	font-family: 'Roboto Slab', serif;
 	color: white;
 	font-size: 4em;
+	text-align: center;
 }
 
 .carousel {
 	font-family: 'Roboto Slab', serif;
 	color: white;
 	size: 2em;	
+	text-align: center;
 }
 
