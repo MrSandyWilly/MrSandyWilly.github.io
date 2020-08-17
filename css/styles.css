@@ -14,8 +14,10 @@ body, html {
   margin: 0;
 }
 
-h1 {
+.msw {
 	margin: 0;
+	font-family: Arial;
+	color: white;
 }
 
 
