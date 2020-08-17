@@ -15,7 +15,7 @@ body, html {
 }
 
 .msw {
-	margin: 0;
+	margin-top: 50%;
 	font-family: 'Roboto Slab', serif;
 	color: white;
 	font-size: 4em;
@@ -25,7 +25,7 @@ body, html {
 .carousel {
 	font-family: 'Roboto Slab', serif;
 	color: white;
-	size: 2em;	
+	size: 3em;	
 	text-align: center;
 }
 
