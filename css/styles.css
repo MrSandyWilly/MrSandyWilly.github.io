@@ -1,3 +1,8 @@
+.noblur {
+	filter: blur(0);
+}
+
+
 .header-bg {
 	filter: blur(8px);
 	-webkit-filter: blur(8px);
@@ -12,9 +17,6 @@
 }
 
 
-.noblur {
-	filter: blur(0);
-	
 body, html {
   height: 100%;
   margin: 0;
