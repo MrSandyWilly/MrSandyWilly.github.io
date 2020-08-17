@@ -16,13 +16,13 @@ body, html {
   margin: 0;
 }
 
-.typewriter {
+.typewriter h1 {
   border-right: solid 3px rgba(0,255,0,.75);
   white-space: nowrap;
   overflow: hidden;    
   font-family: "Arial";  
   font-size: 28px;
-  color: rgba(255,255,255,.70);
+  color: white;
   margin: 0 auto;
 }
 
