@@ -11,6 +11,10 @@
 	background-size: cover;
 }
 
+
+.noblur {
+	filter: blur(0);
+	
 body, html {
   height: 100%;
   margin: 0;
