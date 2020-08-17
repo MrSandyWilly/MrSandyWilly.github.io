@@ -1,6 +1,5 @@
 nav {
-	background-image: url(/images/aircraft.JPG);
-	background-color: red;
+	background-img: url("https://mrsandywilly.github.io/images/aircraft.jpg");
 	
 	/*filter: blur(8px);
 	-webkit-filter: blur(8px);*/
