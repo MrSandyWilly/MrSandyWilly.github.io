@@ -1,7 +1,4 @@
 .header-bg {
-	filter: blur(8px);
-	-webkit-filter: blur(8px);
-	 
 	background-image: url(/images/aircraft.jpg);
 	height: 100%;
 
@@ -9,6 +6,11 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.blur>* {
+	filter: blur(6px);
+	-webkit-filter: blur(6px);
 }
 
 .noblur {
