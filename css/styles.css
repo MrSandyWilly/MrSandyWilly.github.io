@@ -1,0 +1,5 @@
+nav {
+	background-image: url("images/737innsbruck.png");
+	 filter: blur(8px);
+	 -webkit-filter: blur(8px);
+}
