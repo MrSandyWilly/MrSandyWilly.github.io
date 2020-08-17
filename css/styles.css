@@ -10,7 +10,7 @@
 	background-size: cover;
 }
 
-.full {
-	height: 100%;
+body, html, header {
+  height: 100%;
 }
 
