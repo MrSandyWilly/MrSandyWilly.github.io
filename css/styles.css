@@ -19,7 +19,8 @@ body, html {
 	color: white;
 	font-size: 80px;
 	text-align: center;
-	margin: auto 50% auto 50%;
+	width: 100%;
+	text-align: center;
 }
 
 .carousel {
