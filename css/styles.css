@@ -1,10 +1,8 @@
-nav {
-	background-img: url("https://mrsandywilly.github.io/images/aircraft.jpg");
-	
+.header-bg {
 	/*filter: blur(8px);
 	-webkit-filter: blur(8px);*/
 	 
-
+	background-image: url(/images/aircraft.jpg);
 	height: 100%;
 
 	background-position: center;
