@@ -1,8 +1,9 @@
 .header-bg {
 	background-image: url(/images/aircraft.JPG);
+	background-color: red;
 	
-	filter: blur(8px);
-	-webkit-filter: blur(8px);
+	/*filter: blur(8px);
+	-webkit-filter: blur(8px);*/
 	 
 
 	height: 100%;
