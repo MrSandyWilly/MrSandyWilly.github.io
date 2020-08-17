@@ -16,13 +16,13 @@ body, html {
 
 .msw {
 	margin: 0;
-	font-family: 'Bebas Neue', cursive;
+	font-family: 'Roboto Slab', serif;
 	color: white;
 	font-size: 5em;
 }
 
 .carousel {
-	font-family: 'Bebas Neue', cursive;
+	font-family: 'Roboto Slab', serif;
 	color: white;
 	size: 1em;	
 }
