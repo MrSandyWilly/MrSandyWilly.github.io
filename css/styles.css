@@ -1,5 +1,5 @@
 header-bg {
-	background-image: url(737innsbruck.png);
+	background-image: url(/images/737.png);
 	
 	filter: blur(8px);
 	-webkit-filter: blur(8px);
@@ -12,6 +12,3 @@ header-bg {
 	background-size: cover;
 }
 
-h1 {
-	font-family: "Arial";
-}
