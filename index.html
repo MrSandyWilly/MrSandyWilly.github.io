@@ -8,6 +8,7 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Import materialize.css-->
         <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+		<script src="https://kit.fontawesome.com/e6f1f12346.js" crossorigin="anonymous"></script>
 
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -23,81 +24,28 @@
 		</div>
 		<div class="header-bg">
 			<div class="navbar">
-				<span class="navtext"><a href="#">About</a></span>
-				<span class="navtext"><a href="#">Projects</a></span>
 				<span class="navtext"><a href="#">Contact</a></span>
+				<span class="navtext"><a href="#">Projects</a></span>
+				<span class="navtext"><a href="#">About</a></span>
 			</div>
 			<div class="title">
 				<span class="msw">MrSandyWilly</span>
-				<br>
-				<span class="txt-rotate" data-period="2000" data-rotate='[ "Streamer", "Programmer", "Flight Simmer" ]'></span><br>
+				<div class="icons">
+				<i class="fab fa-github"><a href="https://github.com/MrSandyWilly"></a></i>
+				<i class="fab fa-twitter"><a href="https://twitter.com/SwitchNowUnicom"></a></i>
+				<i class="fas fa-envelope"><a href="mailto:sandfojsandy1@gmail.com"></a></i>
+				<i class="fab fa-reddit"><a href="https://www.reddit.com/user/sandster1"></a></i>
+				</div>
 			</div>
-			<script>
-			var TxtRotate = function(el, toRotate, period) {
-				this.toRotate = toRotate;
-				this.el = el;
-				this.loopNum = 0;
-				this.period = parseInt(period, 10) || 2000;
-				this.txt = '';
-				this.tick();
-				this.isDeleting = false;
-			};
-			TxtRotate.prototype.tick = function() {
-				var i = this.loopNum % this.toRotate.length;
-				var fullTxt = this.toRotate[i];
-
-				if (this.isDeleting) {
-					this.txt = fullTxt.substring(0, this.txt.length - 1);
-				} else {
-					this.txt = fullTxt.substring(0, this.txt.length + 1);
-				}
-
-				this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-
-				var that = this;
-				var delta = 300 - Math.random() * 100;
-
-				if (this.isDeleting) { delta /= 2; }
-
-			if (!this.isDeleting && this.txt === fullTxt) {
-				delta = this.period;
-				this.isDeleting = true;
-			} else if (this.isDeleting && this.txt === '') {
-				this.isDeleting = false;
-				this.loopNum++;
-				delta = 500;
-			}
-
-			  setTimeout(function() {
-				that.tick();
-			  }, delta);
-			};
-
-			window.onload = function() {
-			  var elements = document.getElementsByClassName('txt-rotate');
-			  for (var i=0; i<elements.length; i++) {
-				var toRotate = elements[i].getAttribute('data-rotate');
-				var period = elements[i].getAttribute('data-period');
-				if (toRotate) {
-				  new TxtRotate(elements[i], JSON.parse(toRotate), period);
-				}
-			  }
-			  // INJECT CSS
-			  var css = document.createElement("style");
-			  css.type = "text/css";
-			  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
-			  document.body.appendChild(css);
-			};	
-			</script>
-			<script>
-			$(document).ready(function() {
-			window.onload = function () {
-			$('.loader-wrapper').fadeOut(500, function(){ $('.loader-wrapper').remove(); } );
-			}
-			});
-			</script>
-			<script type="text/javascript" src="js/materialize.min.js"></script>
-
 		</div>
+		<script>
+		$(document).ready(function() {
+		window.onload = function () {
+		$('.loader-wrapper').fadeOut(500, function(){ $('.loader-wrapper').remove(); } );
+		}
+		});
+		</script>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+
 	</body>
 </html>

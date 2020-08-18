@@ -78,3 +78,14 @@ body, html {
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
+
+.fab {
+	color: white;
+	font-size: 3em;
+	margin: 5px;
+}
+.fa-envelope {
+	color: white;
+	font-size: 3em;
+	margin: 5px;
+}
