@@ -7,6 +7,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: black;
+	padding-right: 10px;
 }
 
 body, html {
@@ -33,6 +34,10 @@ body, html {
 	text-align: center;
 }
 
+.msw:hover {
+	text-shadow: 0px 0px 20px white;
+}
+
 .txt-rotate {
 	font-family: 'Roboto Slab', serif;
 	color: white;
@@ -48,11 +53,11 @@ body, html {
 .navtext a {
 	color: white;
 	font-family: 'Roboto Slab', serif;
-	font-size: 2em;
+	font-size: 1.5em;
 	text-decoration: none;
 }
 
 .navtext a:hover {
-	text-shadow: 0px 0px 10x white;
+	text-shadow: 0px 0px 10px white;
 }
 	
