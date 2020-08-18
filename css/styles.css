@@ -6,6 +6,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-color: black;
 }
 
 body, html {
@@ -47,6 +48,11 @@ body, html {
 .navtext a {
 	color: white;
 	font-family: 'Roboto Slab', serif;
-	font-size: 1em;
+	font-size: 2em;
+	text-decoration: none;
+}
+
+.navtext a:hover {
+	text-shadow: 0px 0px 10x white;
 }
 	
