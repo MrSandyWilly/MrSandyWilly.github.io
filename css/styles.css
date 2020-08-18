@@ -84,6 +84,16 @@ body, html {
 	font-size: 3em;
 	margin: 5px;
 }
+
+.fab:hover {
+	text-shadow: 0px 0px 5px white;
+}
+
+.fa-envelope:hover {
+	text-shadow: 0px 0px 5px white;
+}
+
+
 .fa-envelope {
 	color: white;
 	font-size: 3em;
