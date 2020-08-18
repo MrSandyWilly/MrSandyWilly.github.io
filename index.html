@@ -21,13 +21,6 @@
 				</div>
 			</div>
 		</div>
-		<script>
-		$(document).ready(function() {
-		window.onload = function () {
-		$('.loader-wrapper').fadeOut(500, function(){ $('#loader').remove(); } );
-		}
-		});
-		</script>
 		<div class="header-bg">
 			<div class="navbar">
 				<span class="navtext"><a href="#">About</a></span>
@@ -37,7 +30,7 @@
 			<div class="title">
 				<span class="msw">MrSandyWilly</span>
 				<br>
-				<span class="txt-rotate carousel" data-period="2000" data-rotate='[ "Streamer", "Programmer", "Flight Simmer" ]'></span><br>
+				<span class="txt-rotate" data-period="2000" data-rotate='[ "Streamer", "Programmer", "Flight Simmer" ]'></span><br>
 			</div>
 			<script>
 			var TxtRotate = function(el, toRotate, period) {
@@ -95,6 +88,13 @@
 			  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
 			  document.body.appendChild(css);
 			};	
+			</script>
+			<script>
+			$(document).ready(function() {
+			window.onload = function () {
+			$('.loader-wrapper').fadeOut(500, function(){ $('.loader-wrapper').remove(); } );
+			}
+			});
 			</script>
 			<script type="text/javascript" src="js/materialize.min.js"></script>
 
