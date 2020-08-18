@@ -5,7 +5,7 @@
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;-
+	background-size: cover;
 }
 
 body, html {
@@ -43,3 +43,10 @@ body, html {
 	float: right;
 	margin: 10px;
 }
+
+.navtext a {
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1em;
+}
+	
