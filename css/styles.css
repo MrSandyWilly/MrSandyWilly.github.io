@@ -38,3 +38,8 @@ body, html {
 	size: 40px;	
 	text-align: center;
 }
+
+.navtext {
+	float: right;
+	margin: 10px;
+}
