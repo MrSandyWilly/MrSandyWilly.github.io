@@ -50,6 +50,11 @@ body, html {
 	margin: 10px;
 }
 
+.home {
+	float: left;
+	margin: 10px;
+}
+
 .navtext a {
 	color: white;
 	font-family: 'Roboto Slab', serif;
@@ -57,9 +62,22 @@ body, html {
 	text-decoration: none;
 }
 
+
+.home a {
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+	
 .navtext a:hover {
 	text-shadow: 0px 0px 10px white;
 }
+
+.home a:hover {
+	text-shadow: 0px 0px 10px white;
+}
+
 
 .loader-wrapper {
 	width: 100%;
