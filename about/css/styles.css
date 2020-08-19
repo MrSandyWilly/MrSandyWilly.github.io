@@ -1,0 +1,101 @@
+.header-bg {
+	background-image: url(/images/aircraft.jpg);
+	height: 100%;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+	padding-right: 10px;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+.title {
+	position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.msw {
+	margin-top: 0;
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	font-size: 80px;
+	text-align: center;
+	width: 100%;
+	text-align: center;
+}
+
+.msw:hover {
+	text-shadow: 0px 0px 20px white;
+}
+
+.txt-rotate {
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	size: 40px;	
+	text-align: center;
+}
+
+.navtext {
+	float: right;
+	margin: 10px;
+}
+
+.navtext a {
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+.navtext a:hover {
+	text-shadow: 0px 0px 10px white;
+}
+
+.loader-wrapper {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: absolute;
+	z-index: 2;
+}
+
+.loader-container {
+	width: 40%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.fab {
+	color: white;
+	font-size: 3em;
+	margin: 5px;
+}
+
+.fab:hover {
+	text-shadow: 0px 0px 5px white;
+}
+
+.fa-envelope:hover {
+	text-shadow: 0px 0px 5px white;
+}
+
+
+.fa-envelope {
+	color: white;
+	font-size: 3em;
+	margin: 5px;
+}
