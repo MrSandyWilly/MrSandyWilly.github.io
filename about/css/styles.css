@@ -121,5 +121,6 @@ body, html {
 }
 
 .body {
+	position: relative;
 	z-index: 5;
 }
