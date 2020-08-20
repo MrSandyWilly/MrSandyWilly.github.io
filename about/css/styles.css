@@ -53,7 +53,8 @@ body, html {
 
 .home {
 	float: left;
-	margin: 20px;
+	margin-top: 10px;
+	margin-left: 15px;
 }
 
 .navtext a {
