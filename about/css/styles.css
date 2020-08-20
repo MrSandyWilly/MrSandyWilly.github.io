@@ -119,3 +119,7 @@ body, html {
 	font-size: 3em;
 	margin: 5px;
 }
+
+.body {
+	z-index: 5;
+}
