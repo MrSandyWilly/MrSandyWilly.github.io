@@ -17,6 +17,7 @@ body, html {
 
 body {
 	background-image: url(/images/aircraft2.jpg);
+	background-size: cover;
 }
 
 .title {
