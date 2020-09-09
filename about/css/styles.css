@@ -126,6 +126,7 @@ body {
 }
 
 .body {
-	color: red;
-	position: absolute;
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
 }
